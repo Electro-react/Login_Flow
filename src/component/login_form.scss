@@ -1,0 +1,54 @@
+$pad:0.6rem;
+$width: 70%;
+$margin: 0rem 1rem 2rem 0rem;
+
+.LoginForm {
+  font-size: 1rem;
+  width: 40%;
+  height: 100vh;
+  display: float;
+  float: right;
+  color:grey;
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  h1{
+    color:rgb(34, 34, 34);
+  }
+  &__email {
+    width: $width;
+    display: block;
+    padding: $pad;
+    margin:$margin;
+  }
+  &__password {
+    width: $width;
+    padding: $pad;
+    margin:$margin;
+    display: block;
+  }
+  &__confirmPassword {
+    width: $width;
+    padding: $pad;
+    margin:$margin;
+    display: block;
+  }
+  &__fullName{
+    width: $width;
+    padding: $pad;
+    margin:$margin;
+    display: block;
+  }
+  &__number {
+    width: $width;
+    padding: $pad;
+    margin:$margin;
+    display: block;
+  }
+  &__btn{
+    width: 25%;
+    padding: $pad;
+    margin:$margin;
+    display: block;
+  }
+}

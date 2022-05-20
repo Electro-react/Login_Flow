@@ -1,0 +1,25 @@
+
+$color: grey ;
+
+.title {
+  margin: 0%;
+  width: 50%;
+  height: 100vh;
+  text-align: center;
+  vertical-align: center;
+  align-items: center;
+  position:absolute;
+  top: 70%;
+  &__header {
+    font-size: 1.7rem;
+    margin: 0;
+    padding: 10px;
+    color:rgb(34, 34, 34);    
+  }
+  &__paragraph {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    color: $color;
+  }
+}
